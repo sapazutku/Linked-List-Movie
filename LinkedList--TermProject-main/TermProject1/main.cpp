@@ -15,14 +15,6 @@ int main() {
     int option;
     int option2;
 
-    Movies.add("u1",5.5,1999);
-    Movies.add("asd",0,2001);
-    Movies.add("jjjj",1,1998);
-    Movies.add("ff",3,1999);
-    Movies.add("qwer",4,1997);
-
-
-
         // menu
 
         cout << "----------------Movie List----------------" << endl;
