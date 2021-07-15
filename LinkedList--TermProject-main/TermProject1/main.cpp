@@ -90,22 +90,22 @@ int main() {
             "\n(3)-Save to file by year " << endl;
             cin >> option2;
             if (option2 == 1){
-                Movies.loadFile("C:\\Users\\utkus\\Downloads\\TermProject1\\Test.txt");
-                Movies.saveToFileByName("C:\\Users\\utkus\\Downloads\\TermProject1\\Test.txt");
+                Movies.loadFile("Test.txt");
+                Movies.saveToFileByName("Test.txt");
                 cout << "Saved to file" << endl;
                 Movies.printMenu();
                 cin >> option;
             }
             else if (option2 == 2){
-                Movies.loadFile("C:\\Users\\utkus\\Downloads\\TermProject1\\Test.txt");
-                Movies.saveToFileByRate("C:\\Users\\utkus\\Downloads\\TermProject1\\Test.txt");
+                Movies.loadFile("Test.txt");
+                Movies.saveToFileByRate("Test.txt");
                 cout << "Saved to file" << endl;
                 Movies.printMenu();
                 cin >> option;
             }
             else if (option2 == 3){
-                Movies.loadFile("C:\\Users\\utkus\\Downloads\\TermProject1\\Test.txt");
-                Movies.saveToFileByYear("C:\\Users\\utkus\\Downloads\\TermProject1\\Test.txt");
+                Movies.loadFile("Test.txt");
+                Movies.saveToFileByYear("Test.txt");
                 cout << "Saved to file" << endl;
                 Movies.printMenu();
                 cin >> option;
