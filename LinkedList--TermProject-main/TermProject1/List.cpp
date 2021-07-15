@@ -30,12 +30,12 @@ void List::add(std::string name, double rate, int year) {
 
     if (head != NULL) {
         curr = head;
-        while (curr->next != NULL) {          //nodelara arasından gezinme
+        while (curr->next != NULL) {         
             curr = curr->next;
         }
         curr->next = n;
 
-    } else {               //önceden bir node yoksa oluşturulan nodeu baş olarak işaretle
+    } else {              
         head = n;
     }
 
@@ -87,7 +87,7 @@ void List::printByYear() {
 
     curr = head;
     while (curr != NULL && curr->next != NULL) {
-        if ((curr->next->year) < (curr->year)) {            // 1999     2000     2001    2002
+        if ((curr->next->year) < (curr->year)) {            
             swap(curr->name, curr->next->name);
             swap(curr->year, curr->next->year);
             swap(curr->rate, curr->next->rate);
